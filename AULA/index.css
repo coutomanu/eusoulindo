@@ -1,0 +1,59 @@
+html {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+#bloco {
+    padding: 20px 20px 60px 20px;
+    width: 60%;
+}
+
+#imagens {
+    width: 300px; 
+    height: auto;
+    border-radius: 10px;
+    border: solid black 1px;
+}
+
+#botao {
+    background-color: #ff0000; /* Fundo vermelho */
+    color: #ffffff; /* Texto branco */
+    padding: 10px 20px; /* Padding interno */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Altera o cursor ao passar por cima */
+    font-size: 16px; /* Tamanho do texto */
+    font-weight: bold; /* Texto em negrito */
+}
+
+#botao2 {
+    background-color: #1ad970; 
+    color: black; 
+    padding: 10px 20px; /* Padding interno */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Altera o cursor ao passar por cima */
+    font-size: 16px; /* Tamanho do texto */
+    font-weight: bold; /* Texto em negrito */
+}
+
+#headline1 {
+    color: #1ad970;
+}
+
+#botao3 {
+    background-color: #d9bc1a; 
+    color: black; 
+    padding: 10px 20px; /* Padding interno */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Altera o cursor ao passar por cima */
+    font-size: 16px; /* Tamanho do texto */
+    font-weight: bold; /* Texto em negrito */
+}
+
+#headline2 {
+    color: #d9bc1a;
+}
