@@ -1,0 +1,188 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+ }
+ 
+ ::-webkit-scrollbar {
+     width: 8px;
+ }
+ 
+ ::-webkit-scrollbar-track {
+     background: #ffffff;
+ }
+   
+ ::-webkit-scrollbar-thumb {
+     background: linear-gradient(360deg, #ffab10, #ffd485);
+ }
+ 
+ ::-webkit-scrollbar-thumb:hover {
+     background: linear-gradient(180deg, #ffab10, #ffd485);
+ }
+
+#logo-container {
+    margin-right: auto;
+    display: flex;
+    width: 300px;
+}
+
+#logo {
+    width: 40%;
+    height: 50px;
+    justify-content: start;
+    padding: 10px 0px 10px 30px;
+}
+
+.itens{
+    width: 600px;
+}
+
+.header {
+    display: flex;
+    background-color: #ffab10;
+    text-align: center;
+    color: white;
+    justify-content: space-between;
+}
+
+#categorias {
+    display: flex;
+}
+
+.categorie {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+/* Container Principal */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+}
+
+#categoriabanner {
+    width: 1030px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Coluna Esquerda */
+.sidebar {
+    flex: 1;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+}
+
+
+.sidebar .filter-options li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.sidebar .filter-options li a:hover {
+    text-decoration: underline;
+}
+
+/* Coluna Direita */
+.main-content {
+    flex: 3;
+    padding: 0px 20px 0px 20px;
+}
+
+.product1 {
+    background-color: #f8f8f8;
+    border: 1px solid rgb(166, 166, 166);
+    border-radius: 10px;
+    padding: 15px;
+    width: 1000px;
+    display: flex;
+    margin: 10px 0px 10px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+.product-image {
+    display: flex;
+}
+
+#comprar {
+    background-color: #ffab10;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 900;
+    border: none;
+    cursor: pointer;
+    
+}
+
+
+footer {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto do rodapé */
+    padding: 20px; /* Espaçamento interno */
+}
+
+.footer-container {
+    max-width: 1200px; /* Largura máxima do conteúdo do rodapé */
+    margin: 0 auto; /* Centralizar horizontalmente */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 150px; /* Ajuste o tamanho da logo conforme necessário */
+    height: auto;
+}
+
+.links-uteis,
+.informacoes {
+    flex: 1; /* Distribuir espaço igualmente entre as seções */
+}
+
+.links-uteis h4,
+.informacoes h4 {
+    font-size: 18px; /* Tamanho do título */
+    margin-bottom: 10px; /* Espaçamento inferior */
+}
+
+.links-uteis ul,
+.informacoes ul {
+    list-style: none; /* Remover marcadores de lista */
+    padding: 0; /* Remover espaçamento interno padrão */
+}
+
+.links-uteis ul li,
+.informacoes ul li {
+    margin-bottom: 5px; /* Espaçamento entre os itens da lista */
+}
+
+.links-uteis a,
+.informacoes a {
+    color: #fff; /* Cor dos links */
+    text-decoration: none; /* Remover sublinhado dos links */
+}
+
+.links-uteis a:hover,
+.informacoes a:hover {
+    text-decoration: underline; /* Adicionar sublinhado ao passar o mouse */
+}
