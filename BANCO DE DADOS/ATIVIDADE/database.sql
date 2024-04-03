@@ -129,7 +129,7 @@ CREATE TABLE cliente (
 
 -- 016
 
-INSERT INTO cliente (nome, codigo, cpf, telefone, dataCadastro, observacoes, inativo) 
+INSERT INTO cliente (nome, codigo, cpf, telefone, dataCadastro, observacao, inativo) 
 VALUES 
 ('Maria Silva', 'C01', '12345678910', '4334721122', '2021-12-01', 'Cliente Bom', FALSE),
 ('João Santos', 'C02', '98765432100', '4334723020', '2021-12-01', 'Cliente Bom', FALSE),
@@ -140,6 +140,33 @@ VALUES
 
 -- 017
 
+ALTER TABLE cliente
+ADD COLUMN id SERIAL PRIMARY KEY;
 
+-- 018
 
+SELECT *
+FROM cliente;
 
+-- 019
+
+SELECT * 
+FROM cliente
+WHERE observacao = 'Cliente Bom';
+
+-- 020
+
+UPDATE cliente
+SET inativo = TRUE
+WHERE nome = 'Julia Oliveira';
+
+-- 021
+
+SELECT * 
+FROM cliente
+WHERE inativo = TRUE;
+
+-- 022
+
+DELETE FROM cliente
+WHERE nome = 'Lucas Ferreira';
