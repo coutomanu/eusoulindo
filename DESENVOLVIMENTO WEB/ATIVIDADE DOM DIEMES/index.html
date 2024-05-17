@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cidades</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .destination {
+            margin-bottom: 20px;
+        }
+        .destination img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px 0;
+        }
+        .destination h2 {
+            color: #333;
+        }
+        .destination p {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="destination">
+            <h2>1. Paris, França</h2>
+            <img src="./imagens/PARIS.png" alt="Paris">
+            <p>Paris é conhecida como a "Cidade da Luz" e é famosa por seus museus, arquitetura e gastronomia. É o destino perfeito para os amantes da cultura e da história.</p>
+        </div>
+        <div class="destination">
+            <h2>2. Tóquio, Japão</h2>
+            <img src="./imagens/TOKYO.png" alt="Tóquio">
+            <p>Tóquio é uma cidade vibrante que combina tradição e modernidade. Desde templos antigos até arranha-céus futuristas, há sempre algo novo para descobrir.</p>
+        </div>
+        <div class="destination">
+            <h2>3. Nova York, EUA</h2>
+            <img src="./imagens/EUA.png" alt="Nova York">
+            <p>Nova York é a cidade que nunca dorme. Com seus famosos marcos como a Estátua da Liberdade e o Central Park, é um destino obrigatório para todos os viajantes.</p>
+        </div>
+        <div class="destination">
+            <h2>4. Roma, Itália</h2>
+            <img src="./imagens/ROMA.png" alt="Roma">
+            <p>Roma é um verdadeiro museu a céu aberto. Com sua rica história, gastronomia deliciosa e arquitetura deslumbrante, é uma cidade que encanta a todos.</p>
+        </div>
+        <div class="destination">
+            <h2>5. Sydney, Austrália</h2>
+            <img src="./imagens/SIDNEI.png" alt="Sydney">
+            <p>Sydney é conhecida por sua icônica Opera House e praias deslumbrantes. É o destino perfeito para quem ama a natureza e a vida urbana.</p>
+        </div>
+    </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const images = document.querySelectorAll('img');
+            console.log(images);
+        });
+    </script>
+</body>
+</html>
